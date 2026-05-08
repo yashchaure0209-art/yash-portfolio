@@ -1,0 +1,214 @@
+# style.css
+
+```css
+:root {
+  --orange: #FF6B00;
+  --orange-light: #FF8C00;
+  --orange-glow: #FF6B0033;
+  --black: #0A0A0A;
+  --dark: #111111;
+  --card: #1A1A1A;
+  --border: #2A2A2A;
+  --text: #E8E8E8;
+  --muted: #888888;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--black);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: rgba(10,10,10,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  height: 60px;
+}
+
+.nav-logo {
+  font-family: 'Bebas Neue';
+  font-size: 1.5rem;
+  color: var(--orange);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: var(--orange);
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0A0A0A 0%, #1a0f00 50%, #0A0A0A 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 2rem 2rem;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  max-width: 1000px;
+}
+
+.hero-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--black);
+}
+
+.hero-name {
+  font-family: 'Bebas Neue';
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  color: white;
+}
+
+.hero-name span {
+  color: var(--orange);
+}
+
+.hero-subtitle {
+  color: var(--muted);
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.contact-pill {
+  display: inline-block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.contact-pill:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.btn-primary,
+.btn-outline {
+  padding: 0.7rem 1.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn-primary {
+  background: var(--orange);
+  color: black;
+}
+
+.btn-outline {
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+
+section {
+  padding: 5rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-title {
+  font-family: 'Bebas Neue';
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.about-grid,
+.projects-grid,
+.cert-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.about-card,
+.project-card,
+.cert-item,
+.skill-card,
+.edu-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.about-card:hover,
+.project-card:hover,
+.cert-item:hover,
+.skill-card:hover {
+  border-color: var(--orange);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+footer {
+  background: var(--dark);
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+}
+
+footer span {
+  color: var(--orange);
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-grid,
+  .projects-grid,
+  .cert-list {
+    grid-template-columns: 1fr;
+  }
+}
+```
+
+The uploaded file originally contained combined HTML and CSS code for a portfolio website. fileciteturn0file0
