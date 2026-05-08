@@ -1,0 +1,191 @@
+# index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Chaure | Software Engineering Student</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">YC</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="your-image.jpg" alt="Profile Photo">
+      </div>
+
+      <div class="hero-text">
+        <div class="hero-label">Software Engineering Student</div>
+
+        <h1 class="hero-name">
+          Yash <span>Chaure</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Passionate software engineering student focused on building modern,
+          responsive, and user-friendly applications.
+        </p>
+
+        <div class="hero-contacts">
+          <a href="#" class="contact-pill">📧 Email</a>
+          <a href="#" class="contact-pill">📱 Phone</a>
+          <a href="#" class="contact-pill">💼 LinkedIn</a>
+        </div>
+
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">About</div>
+    <h2 class="section-title">Who I Am</h2>
+    <div class="divider"></div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Profile</h3>
+        <p>
+          Dedicated and enthusiastic engineering student with strong interest in
+          software development, UI/UX, and web technologies.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h3>Goals</h3>
+        <p>
+          Looking for opportunities to apply technical skills and grow in the
+          software industry.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label">Education</div>
+    <h2 class="section-title">Academic Journey</h2>
+    <div class="divider"></div>
+
+    <div class="edu-card">
+      <div class="edu-degree">Bachelor of Engineering</div>
+      <div class="edu-school">Software Engineering</div>
+
+      <div class="edu-meta">
+        <span>2022 - 2026</span>
+        <span class="gpa-badge">CGPA: 8.5</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Skills</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="divider"></div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <div>
+          <div class="skill-name">HTML</div>
+          <div class="skill-level">Advanced</div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <div>
+          <div class="skill-name">CSS</div>
+          <div class="skill-level">Advanced</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <h2 class="section-title">Featured Work</h2>
+    <div class="divider"></div>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img">🚀</div>
+
+        <div class="project-body">
+          <div class="project-tag">Web Development</div>
+          <div class="project-name">Portfolio Website</div>
+
+          <p class="project-desc">
+            Modern responsive portfolio website built using HTML and CSS.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="section-label">Certifications</div>
+    <h2 class="section-title">Achievements</h2>
+    <div class="divider"></div>
+
+    <div class="cert-list">
+      <div class="cert-item">
+        <div class="cert-icon">🏆</div>
+        <div>
+          <div class="cert-name">Web Development Certification</div>
+          <div class="cert-issuer">Issued by XYZ Institute</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="divider"></div>
+
+    <div class="extra-flex">
+      <div class="extra-tag">📧 yash@email.com</div>
+      <div class="extra-tag">📱 +91 XXXXX XXXXX</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    ©️ 2026 <span>Yash Chaure</span>. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
+```
